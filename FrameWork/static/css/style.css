@@ -1,0 +1,88 @@
+/* #artworkFrame{
+    margin-top: 9rem !important;
+} */
+#cardView{
+    border:0px solid red !important;
+    display:flex;
+    flex-direction:column;
+    }
+.imageSize{
+    height:60vh;
+    width:80%;
+    border:3px solid brown !important;
+}
+#artworkFrame{
+width:80%;
+}
+.setFont{
+font-size:0.5rem;
+}
+
+
+
+@media (min-width: 576px) {
+.displaytext{
+
+visibility: hidden;
+    position: absolute;
+    top: 22rem;
+    left: 1rem;
+}
+
+
+ }
+
+
+@media (min-width: 768px) {
+
+
+  .displaytext{
+
+visibility: hidden;
+    position: absolute;
+    top: 23rem;
+    left: 1rem;
+}
+  }
+
+
+@media (min-width: 992px) {
+
+   .displaytext{
+
+visibility: hidden;
+    position: absolute;
+    top: 23rem;
+    left: 2rem;
+}
+ }
+
+
+@media (min-width: 1200px) {
+
+    .displaytext{
+
+visibility: hidden;
+    position: absolute;
+    top: 22rem;
+    left: 3rem;
+}
+ }
+
+
+@media (min-width: 1400px) {
+
+     .displaytext{
+
+visibility: hidden;
+    position: absolute;
+    top: 22rem;
+    left: 4rem;
+}
+  }
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
